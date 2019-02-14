@@ -1,3 +1,3 @@
 New Project
 Gabe
-Manjot Singh. l
+Manjot Singh.
