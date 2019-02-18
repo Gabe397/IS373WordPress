@@ -29,3 +29,4 @@ Wordpress Installation:
 22. Use password as your password for you account to be safe. 
 23. Wordpress should be installed now. 
 
+Issues and How to Resolve them for Git and WordPress
