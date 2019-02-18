@@ -40,7 +40,7 @@ By: Gabriel Aquende & Manjot Singh**_
 8. The partner should then clone the github repository, check out VCS in php storm and have a copy of the repository in their local.
 9. You and your partner should then create two different branches. Go to the bottom right, click new branch.
 10. Commit your branches to the repository and make sure it works.
-11. Check to see if wordpress is installed proplery in both machines, both students are able to commit to the repository etc.
+11. Check to see if wordpress is installed properly in both machines, both students are able to commit to the repository etc.
 
 **Issues and How to Resolve them for Git and WordPress**
 * Access denied is bad username or password.
