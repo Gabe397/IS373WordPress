@@ -34,24 +34,24 @@ Issues and How to Resolve them for Git and WordPress
 * If it’s connection error then edit php.ini to Uncomment mysqli. You may be using the wrong ini file so Put a file in
 the project called test.php and out one function phpinfo(); and then go to this file when the server is started and it 
 will show you the configuration and you can see where the php.ini file is being loaded.                                                                  
-* If you're unable to access the wordpress site from Phpstorm (edited). 
-  What you want to do is download and install xampp
-  xampp has a Wordpress module which makes this fairly simple. You need to download the module from the same site you found the xampp.exe. 
-  It does not come pre-installed (edited) 
-  all you do is create a /testsite directory within the /htdocs directory or /www 
-  whichever directory serves your pages 
-  once you do that extract the new version of wordpress you downloaded to that folder 
-  now go into the xampp control panel 
-  start Apache and MySql from within that 
-  once you do that click  the 'Admin" button for MySql
-  it will navigate you to the php myAdmin portal
-   after you do that you want to log in and create a database with the same name as the folder in which you saved wp 
-  after doing so you need to navigate to the wp-admin file folder within the wordpress directory 
-  within the browser
-   for example my url would be something like 
-  127.0.0.1/testsite/wordpress/wp-admin/setup-config.php
-  it's going to serve you a WP installation for a new site
-  fill in the data fields as you normally would and you're done
-   it's going to generate a strong password for you. If you don't feed it one
-  , if you lose it you cannot access the admin page and you're SOL. 
-* 
+* If you're unable to access the wordpress site from Phpstorm (edited). What you want to do is download and install xampp
+xampp has a Wordpress module which makes this fairly simple. You need to download the module from the same site you found the xampp.exe. 
+It does not come pre-installed (edited) 
+all you do is create a /testsite directory within the /htdocs directory or /www 
+whichever directory serves your pages 
+once you do that extract the new version of wordpress you downloaded to that folder 
+now go into the xampp control panel 
+start Apache and MySql from within that 
+once you do that click  the 'Admin" button for MySql
+it will navigate you to the php myAdmin portal
+after you do that you want to log in and create a database with the same name as the folder in which you saved wp 
+after doing so you need to navigate to the wp-admin file folder within the wordpress directory 
+within the browser for example my url would be something like 
+127.0.0.1/testsite/wordpress/wp-admin/setup-config.php it's going to serve you a WP installation for a new site
+fill in the data fields as you normally would and you're done
+it's going to generate a strong password for you. If you don't feed it one
+, if you lose it you cannot access the admin page and you're SOL. 
+* If your server test is failing when you are testing connection your SQL80 might be turned off.
+So you will need to go into your task manager and then services and manually start it.
+* If you are unable to add your partner on Git because they dont have access you will have to add them and remain
+leader for the rest of the project.
