@@ -30,3 +30,8 @@ Wordpress Installation:
 23. Wordpress should be installed now. 
 
 Issues and How to Resolve them for Git and WordPress
+* Access denied is bad username or password.
+* If it’s connection error then edit php.ini to Uncomment mysqli. You may be using the wrong ini file so Put a file in
+the project called test.php and out one function phpinfo(); and then go to this file when the server is started and it 
+will show you the configuration and you can see where the php.ini file is being loaded.                                                                  
+*  
