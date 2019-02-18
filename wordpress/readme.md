@@ -17,7 +17,7 @@ Wordpress Installation:
 13. The user should be root and the password should be password.
 14. Make sure you have MySql installed and test connection and fix the problem if it pops up.
 15. That pop up should only need you to line up your versions correctly. 
-16. Right clikc on @localhost.
+16. Right click on @localhost.
 17. Open console and type the following in:
 18. CREATE DATABASE wordpress;
     CREATE USER "wordpress"@"localhost" IDENTIFIED WITH mysql_native_password BY 'password';
