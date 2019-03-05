@@ -1,7 +1,18 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: gabe3
- * Date: 3/2/2019
- * Time: 1:51 PM
- */
+
+<?php get_header();?>
+
+<div class = "container">
+    <div class="jumbotron">
+        <?php
+            query_posts('posts_per_page=1');
+            while(have_posts()) : the_post(); ?>
+                <div>
+                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                    <p><?php the_excerpt(); ?></p>
+                </div>
+<?php endwhile; wp_reset_query(); ?>
+    </div>
+</div>
+
+<?php get_footer();?>
+
