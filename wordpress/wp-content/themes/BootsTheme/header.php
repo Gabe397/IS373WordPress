@@ -3,9 +3,7 @@
 	<head>
 		<title>Bootstrap WordPress Theme</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php
-        wp_enqueue_style( 'style189304', get_stylesheet_uri() );
-        ?>
+        <link rel="stylesheet" href=<?php echo get_stylesheet_uri() ?> >
 		</head>
 	<body>
 		
