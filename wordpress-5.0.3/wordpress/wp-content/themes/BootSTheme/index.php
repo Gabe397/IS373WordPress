@@ -14,5 +14,16 @@
     </div>
 </div>
 
+
+<div class = "container">
+<div>
+    <?php while(have_posts()) : the_post(); ?>
+    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+    <p><?php the_excerpt(); ?></p>
+    <p> posted by <?php the_author(); ?>
+        <?php endwhile; wp_reset_query(); ?>
+</div>
+
+</div>
 <?php get_footer();?>
 
