@@ -10,7 +10,7 @@
 
 function dh_modify_read_more_link() {
 
-    return '<a class="more-link" href="' . get_permalink() . '">Click to Read!</a>';
+    return '<a class="more-link" href=" '.get_permalink().'">Click to Read!</a>';
 
 }
 
